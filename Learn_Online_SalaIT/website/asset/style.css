@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#3C467B;
+}
+h3{
+    color: #3C467B;
+}
+.container p {
+    color: rgb(133, 135, 137);
+    padding-bottom: 5px;
+}
+.container{    
+    color: #0c0c0c;
+    background-color:#F5F5F0 ;
+    padding: 40px 30px;
+    border-radius: 18px;
+    text-align: center;
+}
+.container img{
+    border: solid #BADFDB ;
+    border-radius: 60px;
+    margin: auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+.input-group{
+    text-align: left;
+}
+
+.input-group label{
+    color: #3C467B;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    
+}
+.input-group input{
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 12px;
+}
+.input-group input:focus{
+    border-color: #3C467B;
+    box-shadow: 0 0 6px #567bc6;
+    outline: none;
+}
+.forgot{
+    margin-top: 10px;
+    text-align: right;
+}
+.forgot a{
+
+    text-decoration: none;
+}
+button{
+    background-color: #3C467B;
+    color: #f8f5f5;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.Register{
+    padding: 10px;
+    color: rgb(133, 135, 137);
+
+}
+.Register a{
+
+    color: #3C467B;
+    text-decoration: none;
+}
+.container img {
+    width: 50px;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Angkor&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+   
+    <style>
+        body{
+            margin: auto;
+            width: 80%;
+        }
+        .title{
+            color: #c3093e;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: oblique;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            height: 120px;
+            background-color: ;
+            text-align: center;
+            align-items: center;
+            background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+        }
+  
+        .cart-container{
+            display: grid; 
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            gap: 5px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        .cart{
+            padding: 5px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) ; /*ស្រមោលប្រអប់ */
+            flex-grow: 1;
+            flex-basis: 40%;
+            height: 500px;
+            }
+       .cart  img {
+            width: 100%;
+        }
+        .price{
+            font-weight: bold;
+            align-items: start;
+            font-size: larger;
+        }
+        
+        .footer{
+
+            background-color: aqua;
+            display: flex;
+            justify-content: space-between;
+            padding: 40px ;
+            align-items: flex-start;
+            margin: auto;
+        }
+        .footer-logo{
+            display: flex;
+            align-items: center;
+        }
+        .footer-logo img{
+            width: 55px; 
+            height: 55px;
+            padding-right: 5px;
+        }
+        .footer-logo h3{
+            font-size: 20px;
+            font-family: "Kantumruy Pro", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            margin-left: 5px;
+        }
+        .footer-columns{
+            display: flex;
+            gap: 60px;
+        }
+        .footer-colum h4 {
+            color: ;
+            text-transform: uppercase; /* Convert អក្សរពីតូចទៅធំ */
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .footer-colum a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            
+
+        }
+        .contact-item{
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .contact-item img{
+            width: 12px;
+            height: 12px;
+        }
+        marquee h3{
+            font-family: 'Kantumruy Pro',sans-serif;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+    <marquee>
+      <h3 > រាល់ការជាវថ្ងៃនេះ នឹងទទួលបានការធានាពេញមួយឆ្នាំ</h3> </marquee>
+        <h1 class="title">PS COMPUTER SHOP</h1>
+    <div class="cart-container">
+    <div class="cart">
+           <img src="https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ACER/Notebook%20/Lite-AL15-R7-1-330x409.jpg" alt="">
+        <p>Acer Aspire Lite AL15-41P ( R7 5700U / 16GB / SSD 512GB PCIE / 15.6"FHD )</p>
+        <p class="price">$439.00</p>
+    </div>
+       <div class="cart">
+           <img src="https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ASUS/VivoBook%20/ASUS-Gaming-V16-1-330x409.jpg" alt="">
+        <p>ASUS V16 V3607VH-RP521W ( Core™5 210H / 16GB / SSD 512GB PCIE / 16"FHD+,144Hz )</p>
+        <p class="price">$949.00</p>
+    </div>
+       <div class="cart">
+           <img src="https://www.goldonecomputer.com/image/cache/catalog/Apple/2023/Mac-Pro-14-M3-500x500.jpg" alt="">
+        <p>MacBook Pro 14 ( M3 / 8GB / SSD 1TB / 14.2")</p>
+         <p class="price">$949.00</p>
+    </div>
+           <div class="cart">
+           <img src="https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ACER/Notebook%20/Lite-AL15-R7-1-330x409.jpg" alt="">
+        <p>ASUS ROG Zephyrus G14 GA403UH-QS022W ( Ryzen™ 9 270 / 32GB / SSD 1TB PCIE  / )</p>
+             <p class="price">$1,699.00</p>
+    </div>
+           <div class="cart">
+           <img src="https://www.goldonecomputer.com/image/cache/catalog/GOC%20SR/2025/ASUS/TUF/FX608JMR-1-500x500.jpg" alt="">
+        <p>ASUS TUF Gaming F16 FX608JHR-RV038W ( i7 14650HX / 16GB / SSD 1TB PCIE / RTX5050 8GB / 16"FHD+,165Hz )</p>
+             <p class="price">$1,199.00</p>
+    </div>
+       <div class="cart">
+           <img src="https://www.goldonecomputer.com/image/cache/catalog/Products/MSI/2024/Gaming%20/Thin-15-B12UC-500x500.jpg" alt="">
+        <p>MSI Thin 15 B13UC-3289KH ( i5 13420H / 8GB / SSD 512GB PCIE / RTX3050 4GB / 15.6"FHD,144Hz )</p>
+             <p class="price">$649.00</p>
+    </div>
+    </div>
+ <footer class="footer">
+            <!-- Logo -->
+             <div class="footer-logo">
+                <img src="https://img.icons8.com/?size=100&id=iuUITWhO62ZF&format=png&color=000000" alt="">
+                <h3>ហាងលក់ទំនិញ</h3>
+             </div>
+             <!-- item -->
+             <div class="footer-columns">
+                <div class="footer-colum">
+                    <h4>Product</h4>
+                    <a href="">Shirt</a>
+                    <a href="">Shoes</a>
+                    <a href="">Dress</a>
+                </div>
+                <div class="footer-colum">
+                    <h4>Legal</h4>
+                    <a href="">Privacy</a>
+                    <a href="">Term & Condition</a>
+                    <a href="">Shipping</a>
+                </div>
+                <div class="footer-colum">
+                    <h4>Contact</h4>
+                    <div class="contact-item">
+                        <img src="https://img.icons8.com/?size=100&id=OBmVbH2qOGwK&format=png&color=000000" alt="">
+                        <span>Phnom Penh</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://img.icons8.com/?size=100&id=OumT4lIcOllS&format=png&color=000000" alt="">
+                        <a href="mailto:vireakcs@gmail.com">info@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <img src="https://img.icons8.com/?size=100&id=erKojXvBeomo&format=png&color=000000" alt="">
+                        <p>+855 81 855 858</p>
+                    </div>
+                
+                </div>
+             </div>
+    
+         
+</footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0C2B4E;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(151, 114, 66);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; /* ដាក់ដើម្បីកុំឱ្យរូបគងនៅលើnavbar */
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+ 
+font-family: "Kantumruy Pro", sans-serif;
+color: rgb(191, 223, 249);
+}
+.navbar-list{
+    display: flex;
+    list-style: none;
+        gap: 20px;
+}
+.nav-item{
+    text-decoration: none;
+    color:white;
+
+}
+.product-card{
+        max-width: 280px;
+        padding: 20px;
+    }
+    .product-card img{
+        width: 100%;
+        height: 300px;
+    }
+    .price{
+        font-size: 22px;
+        margin-bottom: 8px;
+        margin-top: 20px;
+    }
+    .title
+    {
+        color: rgb(158, 158, 158);
+        font-size: 18px;
+    }
+    .btn{
+        background-color: #dfab32;
+        padding: 12px 20px;
+        font-size: 18px;
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+    .product-card img:hover{
+        transform: scale(1.1);
+        transition-duration: 0.30s;
+    }
+    .product-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* 1fr គឺស្មើហ្នឹង1Product ដាក់បានយ៉ាងច្រើនបំផុង 1fr 1fr 1fr 1fr  */
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    .product-img{
+        position: relative;
+    }
+    .product-img span{
+        position: absolute;
+        bottom:  30px;
+        right: 60px;
+
+        padding: 6px 30px;
+        background-color: crimson;
+        border-radius: 10px;
+    }
+
+
