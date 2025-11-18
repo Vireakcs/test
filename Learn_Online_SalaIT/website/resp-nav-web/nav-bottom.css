@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: antiquewhite;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.active{
+    color: rgba(193, 0, 193, 0.829);
+}
